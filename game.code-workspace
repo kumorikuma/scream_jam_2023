@@ -16,6 +16,8 @@
 			"editor.formatOnSave": true
 		},
 		"editor.formatOnSaveMode": "modificationsIfAvailable",
-		"omnisharp.enableEditorConfigSupport": false,
+		"omnisharp.useModernNet": true,
+		"omnisharp.enableEditorConfigSupport": true,
+		"dotnet.server.useOmnisharp": true,
 	}
 }
