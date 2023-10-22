@@ -24,7 +24,7 @@ public class CameraController : MonoBehaviour {
         if (verticalRotation > 180) {
             verticalRotation -= 360;
         }
-        verticalRotation += inputLookDirection.y;
+        verticalRotation += -inputLookDirection.y;
         verticalRotation = Mathf.Clamp(verticalRotation, MinVerticalRotation, MaxVerticalRotation);
         Pivot.transform.localRotation = Quaternion.Euler(verticalRotation, horizontalRotation, localEulerRotation.z);
     }
