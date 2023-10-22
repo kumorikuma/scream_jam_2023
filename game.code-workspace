@@ -4,8 +4,8 @@
 			"path": "."
 		},
 		{
-			"path": "Packages"
-		},
+			"path": "Library/PackageCache"
+		}
 	],
 	"settings": {
 		"[csharp]": {
